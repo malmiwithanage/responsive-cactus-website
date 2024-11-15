@@ -574,6 +574,9 @@ img {
 }
 
 /*=============== BREAKPOINTS ===============*/
+.new__card:nth-child(even) {
+  transform: translateY(0rem) !important;
+}
 /* For small devices */
 @media screen and (max-width: 320px){
   .container{
@@ -597,6 +600,10 @@ img {
   .footer__content{
     grid-template-columns: max-content;
   }
+
+  .new__card:nth-child(even) {
+    transform: translateY(0rem) !important;
+}
 }
 
 /* For medium devices */
@@ -616,6 +623,10 @@ img {
   .footer__content{
     grid-template-columns: repeat(3, max-content);
   }
+
+  .new__card:nth-child(even) {
+    transform: translateY(0rem) !important;
+}
 }
 
 @media screen and (min-width: 768px) {
@@ -824,3 +835,35 @@ img {
   }
 }
 
+.about___section{
+  margin-top: 5rem;
+}
+
+.features-hero-section{
+  margin-top: 5rem;
+}
+
+.section__description{
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.benefits-section{
+  margin-top: 5rem;
+}
+
+.cta-section{
+  margin-top: 5rem;
+}
+
+.section__title{
+  margin-bottom: 3rem;
+}
+
+.faq-section{
+  margin-top: 5rem;
+}
+
+.faq__answer{
+  margin-bottom: 1rem;
+}

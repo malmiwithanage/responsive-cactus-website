@@ -75,7 +75,7 @@ const sr = ScrollReveal({
     delay: 300,
 })
 
-sr.reveal(`.home__img, .new__data, .care__img, .contact__content, .footer`)
-sr.reveal(`.home__data, .care__list, .contact__img`, {delay:500})
-sr.reveal(`.new__card`, {delay:500, interval: 100})
+sr.reveal(`.home__img, .new__data, .care__img, .contact__content, .footer, .about___section, .features-hero-section, .features-section, .benefits-section, .testimonials-section, .cta-section, .faq-section`)
+sr.reveal(`.home__data, .care__list, .contact__img, `, {delay:300})
+sr.reveal(`.new__card`, {delay:300, interval: 100})
 sr.reveal(`.shop__card`, {interval: 100})
