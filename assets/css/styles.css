@@ -852,8 +852,16 @@ img {
   margin-top: 5rem;
 }
 
-.cta-section{
+.cta-section {
   margin-top: 5rem;
+  
+}
+
+.cta-button{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  
 }
 
 .section__title{
